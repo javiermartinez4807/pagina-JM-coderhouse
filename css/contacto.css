@@ -1,0 +1,192 @@
+header p {
+    color: rgb(255, 255, 255);
+font-size: 80px;
+    text-align: center;
+    margin: 0;
+    padding: 3%;
+   
+}
+.gradiente{
+    background-image: linear-gradient(to left, red , yellow);
+    
+}
+
+*{
+    margin: 0 ;
+}
+ul a li {
+   
+    margin-left: auto ;
+      list-style-type: none;
+      color: white;
+      
+    }
+    
+ div{
+    font-style:italic;
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+ }
+
+ header p
+ { 
+    background-image:url(https://fondosmil.com/fondo/72691.jpg)
+  
+ 
+ 
+ }
+ .texto-centrado
+ {text-align: center; }
+    
+    body {
+        background-color: brown;
+        width: 2000px;
+        padding: 20px;
+          font-size: large;
+        border: 1px 
+      
+    }
+main  {
+    font-style:italic;
+    font-family: 'Brygada 1918', serif;
+    text-align: center;
+}
+
+h1 { width: autopx; /* ancho */
+height: autopx; /* alto */
+margin: 0;
+padding: 3%;
+text-align: center}
+h2 {
+    width: autopx; /* ancho */
+    height: autopx; /* alto */
+    margin: 0;
+    padding: 3%;
+    text-align: center;
+   }
+   h3 
+   {  width: autopx; /* ancho */
+   height: autopx; /* alto */
+   margin: 0;
+   padding: 3%;
+   text-align: center;}
+
+   h4 
+   {  width: autopx; /* ancho */
+    height: autopx; /* alto */
+    margin: 0;
+    padding: 3%;
+    text-align: center;}
+    
+    h5
+    {  width: autopx; /* ancho */
+        height: autopx; /* alto */
+        margin: 0;
+        padding: 3%;
+        text-align: center;}
+
+        
+
+
+       /* h2 p {
+        /* background-color: rgb(165, 42, 42); */
+            /* width: 1850px;
+            padding: 30px; */
+            /* border: 1px solid rgb(165, 42, 42); */
+            /* font-size: 30px; } */
+
+            .tamaño-letra {font-size: 30px;} */
+
+            main
+            {   height: 100px;
+               top: 40px;
+               left: 40px;
+
+               }
+
+               .interlineado {
+                line-height: 1.6;
+               }
+               .interlineado2 {
+                line-height: 2.5;
+               }
+          
+
+                 /* CONTACTO */
+                 #grillacontacto{
+                    width: auto;
+                    height: auto;
+                     background-color: rgb(165, 42, 42)e;
+                     display: grid;
+                     grid-template: 1fr 1fr;
+                     grid-template-columns: 1fr ;
+                     grid-template-areas: 
+                    
+                     "headercivil"
+                     "maincontacto"
+            
+                     ;
+                     grid-column-gap: 50px;
+                     grid-row-gap: 50px;}
+
+
+                     #headercivil{ 
+                        grid-area: headercivil;
+                        width: auto;
+                        height: auto;
+
+                     }
+    
+                     #maincontacto{
+                        grid-area: maincontacto;
+                        width: auto;
+                        height: auto;
+                     }
+
+                     /* NO PUDE HACERLO LO HACIA Y NO ME DABA LA MEDIDA Y NO SE ACTUALIZABA, EL UL NO SE MOVIA  */
+                     
+                            @media screen and (min-width:50px) {
+                             #grilla { 
+                                justify-items: center;
+                            
+                             
+
+                              } 
+                              #header{
+                                grid-area: header;
+                                width: auto;
+                                display: grid;
+                                /* justify-items: center; */
+                                /* justify-items: start; */
+                                grid-template-rows: 0.5fr ;
+                             /* grid-template-columns: 1fr; */
+                                grid-template-areas:
+                                "header"
+                                "lista"
+                                
+                                
+                               }
+                               
+                               #main {
+                                   grid-area: main;
+                                   display:grid ;
+                                   justify-items: center;
+                                   grid-template-rows: 1fr ;
+                                    grid-template-columns: 1fr ;
+                                    grid-template-areas: 
+                                   
+                                    "derecholaboral "
+                                    "derechocivil "
+                                    "derechopenal"
+                                    ;
+                                    /* grid-column-gap: auto ;
+                                    grid-row-gap: auto; */
+                                    justify-items: center;
+                                   
+                                  
+                                       }
+                                       #lista{
+                                        margin-left: 10px ;
+                                       }
+                                    }
+                                    
