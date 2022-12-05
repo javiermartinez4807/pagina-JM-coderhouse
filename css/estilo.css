@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.nombre {
+  color: white; }
+
+.gradiente {
+  color: black; }
+
+.tamañoletra {
+  font-size: 50px; }
+
 header p {
   color: white;
   font-size: 80px;
@@ -12,9 +21,10 @@ header p {
 * {
   margin: 0; }
 
-/* ul a li {
+ul a li {
   list-style-type: none;
-  margin-left: auto; } */
+  margin-left: auto;
+  color: white; }
 
 div {
   font-style: italic;
@@ -106,10 +116,7 @@ main {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "header "
- "lista"
- "main "
- "footer";
+  grid-template-areas: "header " "lista" "main " "footer";
   grid-column-gap: auto;
   grid-row-gap: auto; }
 
@@ -125,9 +132,7 @@ main {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "derecholaboral derechocivil derechopenal"
- "derecholaboral derechocivil derechopenal"
- "derecholaboral derechocivil derechopenal";
+  grid-template-areas: "derecholaboral derechocivil derechopenal" "derecholaboral derechocivil derechopenal" "derecholaboral derechocivil derechopenal";
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   justify-items: center;
@@ -157,13 +162,7 @@ main {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "headerl"
- "divconsulta"
- "tituloderecholaboral"
- "despidos"
- "suspensiones"
- "trabajoennegro"
- "acososexual";
+  grid-template-areas: "headerl" "divconsulta" "tituloderecholaboral" "despidos" "suspensiones" "trabajoennegro" "acososexual";
   grid-column-gap: auto;
   grid-row-gap: auto; }
 
@@ -215,10 +214,7 @@ main {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "headercivil"
- "consultacivil"
- "titulocivil"
- "parrafo1";
+  grid-template-areas: "headercivil" "consultacivil" "titulocivil" "parrafo1";
   grid-column-gap: auto;
   grid-row-gap: auto; }
 
@@ -250,12 +246,7 @@ main {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "headerpenañ"
- "consultapenal"
- "delitossexuales"
- "delitoscontralaspersonas"
- "violenciadomestica"
- "extradiciones";
+  grid-template-areas: "headerpenañ" "consultapenal" "delitossexuales" "delitoscontralaspersonas" "violenciadomestica" "extradiciones";
   grid-column-gap: auto;
   grid-row-gap: auto; }
 
@@ -291,8 +282,7 @@ main {
   display: grid;
   grid-template: 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "headercivil"
- "maincontacto";
+  grid-template-areas: "headercivil" "maincontacto";
   grid-column-gap: 50px;
   grid-row-gap: 50px; }
 
@@ -314,8 +304,7 @@ main {
   /* justify-items: start; */
   grid-template-rows: 0.5fr;
   /* grid-template-columns: 1fr; */
-  grid-template-areas: "header"
- "lista"; }
+  grid-template-areas: "header" "lista"; }
 
 #main {
   grid-area: main;
@@ -323,9 +312,7 @@ main {
   justify-items: center;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "derecholaboral "
- "derechocivil "
- "derechopenal";
+  grid-template-areas: "derecholaboral " "derechocivil " "derechopenal";
   /* grid-column-gap: auto ;
                                grid-row-gap: auto; */
   justify-items: center; }
@@ -333,14 +320,5 @@ main {
 #lista {
   margin-left: 10px; }
 
-/* clase 14 */
-.inicio {
-  color: white; }
-
-.derecho-laboral {
-  color: white; }
-
-.derecho-civil {
-  color: white; }
-
-
+#lista {
+  margin-left: 10px; }

@@ -1,0 +1,7 @@
+.gradiente{
+    color: map-get($paletacolores,"negro");
+  }
+ .tamañoletra{
+    @extend .tamañoletra;
+    font-size: 50px;
+}
