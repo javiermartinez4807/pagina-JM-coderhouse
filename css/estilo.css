@@ -12,10 +12,9 @@ header p {
 * {
   margin: 0; }
 
-ul a li {
-  margin-left: auto;
+/* ul a li {
   list-style-type: none;
-  color: white; }
+  margin-left: auto; } */
 
 div {
   font-style: italic;
@@ -107,7 +106,10 @@ main {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "header " "lista" "main " "footer";
+  grid-template-areas: "header "
+ "lista"
+ "main "
+ "footer";
   grid-column-gap: auto;
   grid-row-gap: auto; }
 
@@ -123,7 +125,9 @@ main {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "derecholaboral derechocivil derechopenal" "derecholaboral derechocivil derechopenal" "derecholaboral derechocivil derechopenal";
+  grid-template-areas: "derecholaboral derechocivil derechopenal"
+ "derecholaboral derechocivil derechopenal"
+ "derecholaboral derechocivil derechopenal";
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   justify-items: center;
@@ -153,7 +157,13 @@ main {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "headerl" "divconsulta" "tituloderecholaboral" "despidos" "suspensiones" "trabajoennegro" "acososexual";
+  grid-template-areas: "headerl"
+ "divconsulta"
+ "tituloderecholaboral"
+ "despidos"
+ "suspensiones"
+ "trabajoennegro"
+ "acososexual";
   grid-column-gap: auto;
   grid-row-gap: auto; }
 
@@ -205,7 +215,10 @@ main {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "headercivil" "consultacivil" "titulocivil" "parrafo1";
+  grid-template-areas: "headercivil"
+ "consultacivil"
+ "titulocivil"
+ "parrafo1";
   grid-column-gap: auto;
   grid-row-gap: auto; }
 
@@ -237,7 +250,12 @@ main {
   display: grid;
   grid-template: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "headerpenañ" "consultapenal" "delitossexuales" "delitoscontralaspersonas" "violenciadomestica" "extradiciones";
+  grid-template-areas: "headerpenañ"
+ "consultapenal"
+ "delitossexuales"
+ "delitoscontralaspersonas"
+ "violenciadomestica"
+ "extradiciones";
   grid-column-gap: auto;
   grid-row-gap: auto; }
 
@@ -273,7 +291,8 @@ main {
   display: grid;
   grid-template: 1fr 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "headercivil" "maincontacto";
+  grid-template-areas: "headercivil"
+ "maincontacto";
   grid-column-gap: 50px;
   grid-row-gap: 50px; }
 
@@ -295,7 +314,8 @@ main {
   /* justify-items: start; */
   grid-template-rows: 0.5fr;
   /* grid-template-columns: 1fr; */
-  grid-template-areas: "header" "lista"; }
+  grid-template-areas: "header"
+ "lista"; }
 
 #main {
   grid-area: main;
@@ -303,10 +323,24 @@ main {
   justify-items: center;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "derecholaboral " "derechocivil " "derechopenal";
+  grid-template-areas: "derecholaboral "
+ "derechocivil "
+ "derechopenal";
   /* grid-column-gap: auto ;
                                grid-row-gap: auto; */
   justify-items: center; }
 
 #lista {
   margin-left: 10px; }
+
+/* clase 14 */
+.inicio {
+  color: white; }
+
+.derecho-laboral {
+  color: white; }
+
+.derecho-civil {
+  color: white; }
+
+
