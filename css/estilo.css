@@ -1,12 +1,209 @@
-@charset "UTF-8";
-.nombre {
-  color: white; }
+header p {
+    color: rgb(255, 255, 255);
+font-size: 80px;
+    text-align: center;
+    margin: 0;
+    padding: 3%;
+   
+}
+.gradiente{
+    background-image: linear-gradient(to left, red , yellow);
+    
+}
 
-.gradiente {
+*{
+    margin: 0 ;
+}
+ul a li {
+   
+    margin-left: auto ;
+      list-style-type: none;
+      color: white;
+      
+    }
+    
+ div{
+    font-style:italic;
+    text-align: center;
+    font-family: 'Brygada 1918', serif;
+     }
+
+ header p
+ { 
+    background-image:url(https://fondosmil.com/fondo/72691.jpg)
+  
+ 
+ 
+ }
+ .texto-centrado
+ {text-align: center; }
+    
+    .body {
+        /* background-color: brown;
+        width: 2000px;
+        padding: 20px;
+          font-size: large;
+        border: 1px 
+       */
+       background-color: #000000;
+       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='415' height='345.8' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.11'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/svg%3E");
+    }
+main  {
+    font-style:italic;
+    font-family: 'Brygada 1918', serif;
+    text-align: center;
+}
+
+h1 { width: autopx; /* ancho */
+height: autopx; /* alto */
+margin: 0;
+padding: 3%;
+text-align: center}
+h2 {
+    width: autopx; /* ancho */
+    height: autopx; /* alto */
+    margin: 0;
+    padding: 3%;
+    text-align: center;
+   }
+   h3 
+   {  width: autopx; /* ancho */
+   height: autopx; /* alto */
+   margin: 0;
+   padding: 3%;
+   text-align: center;}
+
+   h4 
+   {  width: autopx; /* ancho */
+    height: autopx; /* alto */
+    margin: 0;
+    padding: 3%;
+    text-align: center;}
+    
+    h5
+    {  width: autopx; /* ancho */
+        height: autopx; /* alto */
+        margin: 0;
+        padding: 3%;
+        text-align: center;}
+
+        
+
+
+       /* h2 p {
+        /* background-color: rgb(165, 42, 42); */
+            /* width: 1850px;
+            padding: 30px; */
+            /* border: 1px solid rgb(165, 42, 42); */
+            /* font-size: 30px; } */
+
+            .tamaño-letra {font-size: 30px;} */
+
+            main
+            {   height: 100px;
+               top: 40px;
+               left: 40px;
+
+               }
+
+               .interlineado {
+                line-height: 1.6;
+               }
+               .interlineado2 {
+                line-height: 2.5;
+               }
+          
+
+                 /* CONTACTO */
+                 #grillacontacto{
+                    width: auto;
+                    height: auto;
+                     background-color: rgb(165, 42, 42)e;
+                     color: white;
+                     display: grid;
+                     grid-template: 1fr 1fr;
+                     grid-template-columns: 1fr ;
+                     grid-template-areas: 
+                    
+                     "headercivil"
+                     "maincontacto"
+            
+                     ;
+                     grid-column-gap: 50px;
+                     grid-row-gap: 50px;}
+
+
+                     #headercivil{ 
+                        grid-area: headercivil;
+                        width: auto;
+                        height: auto;
+
+                     }
+    
+                     #maincontacto{
+                        grid-area: maincontacto;
+                        width: auto;
+                        height: auto;
+                     }
+
+                     /* NO PUDE HACERLO LO HACIA Y NO ME DABA LA MEDIDA Y NO SE ACTUALIZABA, EL UL NO SE MOVIA  */
+                     
+                            @media screen and (min-width:50px) {
+                             #grilla { 
+                                justify-items: center;
+                            
+                             
+
+                              } 
+                              #header{
+                                grid-area: header;
+                                width: auto;
+                                display: grid;
+                                /* justify-items: center; */
+                                /* justify-items: start; */
+                                grid-template-rows: 0.5fr ;
+                             /* grid-template-columns: 1fr; */
+                                grid-template-areas:
+                                "header"
+                                "lista"
+                                
+                                
+                               }
+                               
+                               #main {
+                                   grid-area: main;
+                                   display:grid ;
+                                   justify-items: center;
+                                   grid-template-rows: 1fr ;
+                                    grid-template-columns: 1fr ;
+                                    grid-template-areas: 
+                                   
+                                    "derecholaboral "
+                                    "derechocivil "
+                                    "derechopenal"
+                                    ;
+                                    /* grid-column-gap: auto ;
+                                    grid-row-gap: auto; */
+                                    justify-items: center;
+                                   
+                                  
+                                       }
+                                       #lista{
+                                        margin-left: 10px ;
+                                       }
+                                    }
+                                    .color-de-letra{
+                                        background-color: white;
+                                    }
+
+ .nombre {
+   color: white; }
+
+  .gradiente {
   color: black; }
 
-.tamañoletra {
-  font-size: 50px; }
+  .tamañoletra {
+    font-size: 50px; }
 
 header p {
   color: white;
@@ -15,11 +212,10 @@ header p {
   margin: 0;
   padding: 3%; }
 
-.gradiente {
-  background-image: linear-gradient(to left, red, yellow); }
+  .gradiente {
+    background-image: linear-gradient(to left, red, yellow); }
 
-* {
-  margin: 0; }
+    * { margin: 0; }
 
 ul a li {
   list-style-type: none;
@@ -30,318 +226,320 @@ div {
   font-style: italic;
   text-align: center;
   font-family: 'Brygada 1918', serif; }
-
-header p {
-  background-image: url(https://fondosmil.com/fondo/72691.jpg); }
-
-.texto-centrado {
-  text-align: center; }
-
+  
+  header p {
+    background-image: url(https://fondosmil.com/fondo/72691.jpg); }
+  
+  .texto-centrado {
+    text-align: center; }
+  
 body {
-  color: white;
-  background-color: #000000;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
-  background-attachment: fixed;
-  background-size: cover; }
-
+color: white;
+ background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover; }
+       
 main {
-  font-style: italic;
-  font-family: 'Brygada 1918', serif;
-  text-align: center; }
+ font-style: italic;
+ font-family: 'Brygada 1918', serif;
+text-align: center; }    
 
 h1 {
-  width: autopx;
-  /* ancho */
-  height: autopx;
-  /* alto */
-  margin: 0;
-  padding: 3%;
-  text-align: center; }
-
-h2 {
-  width: autopx;
-  /* ancho */
-  height: autopx;
-  /* alto */
-  margin: 0;
-  padding: 3%;
-  text-align: center; }
-
-h3 {
-  width: autopx;
-  /* ancho */
-  height: autopx;
-  /* alto */
-  margin: 0;
-  padding: 3%;
-  text-align: center; }
-
-h4 {
-  width: autopx;
-  /* ancho */
-  height: autopx;
-  /* alto */
-  margin: 0;
-  padding: 3%;
-  text-align: center; }
-
+    width: autopx;
+    /* ancho */
+    height: autopx;
+    /* alto */
+    margin: 0;
+    padding: 3%;
+    text-align: center; }
+  
+    h2 {
+        width: autopx;
+        /* ancho */
+        height: autopx;
+        /* alto */
+        margin: 0;
+        padding: 3%;
+        text-align: center; }
+        h3 {
+            width: autopx;
+            /* ancho */
+            height: autopx;
+            /* alto */
+            margin: 0;
+            padding: 3%;
+            text-align: center; }
+            h4 {
+                width: autopx;
+                /* ancho */
+                height: autopx;
+                /* alto */
+                margin: 0;
+                padding: 3%;
+                text-align: center; }
+                
 h5 {
-  width: autopx;
-  /* ancho */
-  height: autopx;
-  /* alto */
-  margin: 0;
-  padding: 3%;
-  text-align: center; }
+    width: autopx;
+    /* ancho */
+    height: autopx;
+    /* alto */
+    margin: 0;
+    padding: 3%;
+    text-align: center; }
+  
+    .tamaño-letra {
+        font-size: 30px; }
 
-.tamaño-letra {
-  font-size: 30px; }
+        .interlineado {
+            line-height: 1.6; }
 
-main {
-  height: 100px;
-  top: 40px;
-  left: 40px; }
+            .interlineado2 {
+                line-height: 2.5; }
 
-.interlineado {
-  line-height: 1.6; }
 
-.interlineado2 {
-  line-height: 2.5; }
 
+
+
+
+
+
+                
 /* INICIO */
 #grilla {
-  width: auto;
-  height: auto;
-  background-color: brown e;
-  display: grid;
-  grid-template: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
-  grid-template-areas: "header "
- "lista"
- "main "
- "footer";
-  grid-column-gap: auto;
-  grid-row-gap: auto; }
-
-#header {
-  grid-area: header;
-  width: auto;
-  /* ancho */
-  height: auto;
-  /* alto */ }
-
-#main {
-  grid-area: main;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "derecholaboral derechocivil derechopenal"
- "derecholaboral derechocivil derechopenal"
- "derecholaboral derechocivil derechopenal";
-  grid-column-gap: 50px;
-  grid-row-gap: 50px;
-  justify-items: center;
-  align-items: start;
-  align-content: stretch; }
-
-#footer {
-  grid-area: footer; }
-
-#derechocivil {
-  grid-area: derechocivil; }
-
-#derechopenal {
-  grid-area: derechopenal; }
-
-#derecholaboral {
-  grid-area: derecholaboral; }
-
-#lista {
-  grid-area: ul; }
-
-/* DERECHO LABORAL */
-#grilladerecholaboral {
-  width: auto;
-  height: auto;
-  background-color: brown e;
-  display: grid;
-  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
-  grid-template-areas: "headerl"
- "divconsulta"
- "tituloderecholaboral"
- "despidos"
- "suspensiones"
- "trabajoennegro"
- "acososexual";
-  grid-column-gap: auto;
-  grid-row-gap: auto; }
-
-#headearderecholaboral {
-  grid-area: headerl;
-  width: auto;
-  /* ancho */
-  height: auto;
-  /* alto */ }
-
-#divconsulta {
-  grid-area: divconsulta;
-  width: auto;
-  height: auto; }
-
-#tituloderecholaboral {
-  grid-area: tituloderecholaboral;
-  width: auto;
-  height: auto; }
-
-#despidos {
-  grid-area: despidos;
-  width: auto;
-  height: auto; }
-
-#suspensiones {
-  grid-area: suspensiones;
-  width: auto;
-  height: auto;
-  /* background-color: aquamarine; */ }
-
-#trabajoennegro {
-  grid-area: trabajoennegro;
-  width: auto;
-  height: auto;
-  /* background-color: rgb(21, 255, 0); */ }
-
-#acososexual {
-  grid-area: acososexual;
-  width: auto;
-  height: auto;
-  /* background-color: rgb(207, 196, 255); */ }
-
-/* DERECHO CIVIL */
-#grillacivil {
-  width: auto;
-  height: auto;
-  background-color: brown e;
-  display: grid;
-  grid-template: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
-  grid-template-areas: "headercivil"
- "consultacivil"
- "titulocivil"
- "parrafo1";
-  grid-column-gap: auto;
-  grid-row-gap: auto; }
-
-#headercivil {
-  grid-area: headercivil;
-  width: auto;
-  height: auto; }
-
-#consultacivil {
-  grid-area: consultacivil;
-  width: auto;
-  height: auto; }
-
-#titulocivil {
-  grid-area: titulocivil;
-  width: auto;
-  height: auto; }
-
-#parrafo1 {
-  grid-area: parrafo1;
-  width: auto;
-  height: auto; }
-
-/* DERECHO PENAL */
-#grillapenal {
-  width: auto;
-  height: auto;
-  background-color: brown e;
-  display: grid;
-  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr;
-  grid-template-areas: "headerpenañ"
- "consultapenal"
- "delitossexuales"
- "delitoscontralaspersonas"
- "violenciadomestica"
- "extradiciones";
-  grid-column-gap: auto;
-  grid-row-gap: auto; }
-
-#headerpenal {
-  width: auto;
-  height: auto; }
-
-#consultapenal {
-  width: auto;
-  height: auto; }
-
-#delitossexuales {
-  width: auto;
-  height: auto; }
-
-#delitoscontralaspersonas {
-  width: auto;
-  height: auto; }
-
-#violenciadomestica {
-  width: auto;
-  height: auto; }
-
-#extradiciones {
-  width: auto;
-  height: auto; }
-
-/* CONTACTO */
-#grillacontacto {
-  width: auto;
-  height: auto;
-  background-color: brown e;
-  display: grid;
-  grid-template: 1fr 1fr;
-  grid-template-columns: 1fr;
-  grid-template-areas: "headercivil"
- "maincontacto";
-  grid-column-gap: 50px;
-  grid-row-gap: 50px; }
-
-#headercivil {
-  grid-area: headercivil;
-  width: auto;
-  height: auto; }
-
-#maincontacto {
-  grid-area: maincontacto;
-  width: auto;
-  height: auto; }
-
-#header {
-  grid-area: header;
-  width: auto;
-  display: grid;
-  /* justify-items: center; */
-  /* justify-items: start; */
-  grid-template-rows: 0.5fr;
-  /* grid-template-columns: 1fr; */
-  grid-template-areas: "header"
- "lista"; }
-
-#main {
-  grid-area: main;
-  display: grid;
-  justify-items: center;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
-  grid-template-areas: "derecholaboral "
- "derechocivil "
- "derechopenal";
-  /* grid-column-gap: auto ;
-                               grid-row-gap: auto; */
-  justify-items: center; }
-
-#lista {
-  margin-left: 10px; }
-
-#lista {
-  margin-left: 10px; }
+    width: auto;
+    height: auto;
+    background-color: brown e;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header "
+   "lista"
+   "main "
+   "footer";
+    grid-column-gap: auto;
+    grid-row-gap: auto; }
+  
+  #header {
+    grid-area: header;
+    width: auto;
+    /* ancho */
+    height: auto;
+    /* alto */ }
+  
+  #main {
+    grid-area: main;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "derecholaboral derechocivil derechopenal"
+   "derecholaboral derechocivil derechopenal"
+   "derecholaboral derechocivil derechopenal";
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-items: center;
+    align-items: start;
+    align-content: stretch; }
+  
+  #footer {
+    grid-area: footer; }
+  
+  #derechocivil {
+    grid-area: derechocivil; }
+  
+  #derechopenal {
+    grid-area: derechopenal; }
+  
+  #derecholaboral {
+    grid-area: derecholaboral; }
+  
+  #lista {
+    grid-area: ul; }
+  
+  /* DERECHO LABORAL */
+  #grilladerecholaboral {
+    width: auto;
+    height: auto;
+    background-color: brown e;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "headerl"
+   "divconsulta"
+   "tituloderecholaboral"
+   "despidos"
+   "suspensiones"
+   "trabajoennegro"
+   "acososexual";
+    grid-column-gap: auto;
+    grid-row-gap: auto; }
+  
+  #headearderecholaboral {
+    grid-area: headerl;
+    width: auto;
+    /* ancho */
+    height: auto;
+    /* alto */ }
+  
+  #divconsulta {
+    grid-area: divconsulta;
+    width: auto;
+    height: auto; }
+  
+  #tituloderecholaboral {
+    grid-area: tituloderecholaboral;
+    width: auto;
+    height: auto; }
+  
+  #despidos {
+    grid-area: despidos;
+    width: auto;
+    height: auto; }
+  
+  #suspensiones {
+    grid-area: suspensiones;
+    width: auto;
+    height: auto;
+    /* background-color: aquamarine; */ }
+  
+  #trabajoennegro {
+    grid-area: trabajoennegro;
+    width: auto;
+    height: auto;
+    /* background-color: rgb(21, 255, 0); */ }
+  
+  #acososexual {
+    grid-area: acososexual;
+    width: auto;
+    height: auto;
+    /* background-color: rgb(207, 196, 255); */ }
+  
+  /* DERECHO CIVIL */
+  #grillacivil {
+    width: auto;
+    height: auto;
+    background-color: brown e;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "headercivil"
+   "consultacivil"
+   "titulocivil"
+   "parrafo1";
+    grid-column-gap: auto;
+    grid-row-gap: auto; }
+  
+  #headercivil {
+    grid-area: headercivil;
+    width: auto;
+    height: auto; }
+  
+  #consultacivil {
+    grid-area: consultacivil;
+    width: auto;
+    height: auto; }
+  
+  #titulocivil {
+    grid-area: titulocivil;
+    width: auto;
+    height: auto; }
+  
+  #parrafo1 {
+    grid-area: parrafo1;
+    width: auto;
+    height: auto; }
+  
+  /* DERECHO PENAL */
+  #grillapenal {
+    width: auto;
+    height: auto;
+    background-color: brown e;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "headerpenañ"
+   "consultapenal"
+   "delitossexuales"
+   "delitoscontralaspersonas"
+   "violenciadomestica"
+   "extradiciones";
+    grid-column-gap: auto;
+    grid-row-gap: auto; }
+  
+  #headerpenal {
+    width: auto;
+    height: auto; }
+  
+  #consultapenal {
+    width: auto;
+    height: auto; }
+  
+  #delitossexuales {
+    width: auto;
+    height: auto; }
+  
+  #delitoscontralaspersonas {
+    width: auto;
+    height: auto; }
+  
+  #violenciadomestica {
+    width: auto;
+    height: auto; }
+  
+  #extradiciones {
+    width: auto;
+    height: auto; }
+  
+  /* CONTACTO */
+  #grillacontacto {
+    width: auto;
+    height: auto;
+    background-color: brown e;
+    display: grid;
+    grid-template: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "headercivil"
+   "maincontacto";
+    grid-column-gap: 50px;
+    grid-row-gap: 50px; }
+  
+  #headercivil {
+    grid-area: headercivil;
+    width: auto;
+    height: auto; }
+  
+  #maincontacto {
+    grid-area: maincontacto;
+    width: auto;
+    height: auto; }
+  
+  #header {
+    grid-area: header;
+    width: auto;
+    display: grid;
+    /* justify-items: center; */
+    /* justify-items: start; */
+    grid-template-rows: 0.5fr;
+    /* grid-template-columns: 1fr; */
+    grid-template-areas: "header"
+   "lista"; }
+  
+  #main {
+    grid-area: main;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "derecholaboral "
+   "derechocivil "
+   "derechopenal";
+    /* grid-column-gap: auto ;
+                                 grid-row-gap: auto; */
+    justify-items: center; }
+  
+  #lista {
+    margin-left: 10px; }
+  
+  #lista {
+    margin-left: 10px; }
+  
