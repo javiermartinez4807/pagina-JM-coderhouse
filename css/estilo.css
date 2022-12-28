@@ -543,3 +543,14 @@ h5 {
   #lista {
     margin-left: 10px; }
   
+    footer {
+      color: white;
+      text-align: center;
+      font-size: 25px;
+    }
+ footer ul li{
+  margin-left: auto ;
+  list-style-type: none;
+  color: white;
+}
+   
