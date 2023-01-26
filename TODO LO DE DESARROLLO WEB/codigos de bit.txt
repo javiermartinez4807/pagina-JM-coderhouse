@@ -1,0 +1,8 @@
+git init "para iniciar "
+ 
+git branch  footer para crear una rama
+ git branch d- footer para eliminar
+
+git checkout footer para moverte de rama
+
+git merge permite fusionar las ramas  asi aparecen los cambios en las otras ramas

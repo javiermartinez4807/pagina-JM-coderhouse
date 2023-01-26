@@ -1,0 +1,11 @@
+$colores:  (
+    inicio:white
+    );
+
+
+@each $nombre, $color in $colores {
+     .#{nombre}{
+        color:$color;
+        
+     }
+}
